@@ -32,7 +32,7 @@ export class IntervalsComponent {
 
   countdownStops() {
     this.counting = false;
-    this.intervalSubscribtion?.unsubscribe();
+    this.intervalSubscribtion?.unsubscribe();  // smettiamo di ascoltare 
     this.value = 0;
   }
 
