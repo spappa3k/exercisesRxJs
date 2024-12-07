@@ -12,9 +12,10 @@ export class IntervalsComponent{
   public value:number=0;
 
 
-
   countdownStarts(){
-    const interval$= interval(1000); 
+    // il $ dopo il nome della variabile la imposta come Observable da poter sottoscrivere
+    const interval$= interval(1000);  // interval e'importato da rxjs 
+
     interval$.subscribe(x=>{    //sottoscriviamo
       this.value=x;
     })
