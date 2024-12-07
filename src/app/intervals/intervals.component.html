@@ -1,3 +1,5 @@
-<div class="container-fluid d-flex justify-content-center align-items-center vh-100">
-    <button type="button" class="btn btn-primary" (click)="countdownStarts()">Click to start counting seconds</button>
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center vh-100" style="gap: 60px;">
+    <button type="button" class="btn btn-success" (click)="countdownStarts()" *ngIf="!counting">Click to start counting</button>
+    <button type="button" class="btn btn-danger" (click)="countdownStops()" *ngIf="counting">Click to stop counting</button>
+    <h1 style="font-size: 6em; margin-top: 20px;">{{value}}</h1>  
 </div>
