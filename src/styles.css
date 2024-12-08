@@ -32,8 +32,20 @@
     background-size: contain;
   }
 
+  .menu{
+    margin-top: 100px;
+    margin-bottom: 140px;
+    gap:80px;
+  }
 .menu div{
     border: 2px black solid;
-    width:100px;
+    width:300px;
     height: 100px;
+}
+
+.menu div:nth-child(1),
+.menu div:nth-child(3) {
+  transform: translateY(70px); 
+  width: 200px;
+  height: 60px;
 }
