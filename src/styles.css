@@ -1,3 +1,4 @@
+/* HOME PAGE */
 .arrows {
     border: 2px solid black; 
     max-width: 800px;
@@ -30,3 +31,9 @@
     background-image: url('assets/arrowR.png');
     background-size: contain;
   }
+
+.menu div{
+    border: 2px black solid;
+    width:100px;
+    height: 100px;
+}
