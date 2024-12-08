@@ -13,15 +13,20 @@
     top: 50%;
     transform: translateY(-50%); 
     width: 60px;
-    height: 30px;
+    height: 60px;
     border: none;
     cursor: pointer;
+    background-color: transparent;
   }
   
   .arrowL {
-    left: 10px; /* Margine interno per non essere troppo attaccato al bordo */
+    left: 10px; 
+    background-image: url('assets/arrowL.png');
+    background-size: contain;
   }
   
   .arrowR {
-    right: 10px; /* Margine interno per non essere troppo attaccato al bordo */
+    right: 10px; 
+    background-image: url('assets/arrowR.png');
+    background-size: contain;
   }
