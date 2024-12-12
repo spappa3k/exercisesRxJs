@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { interval, Subscription } from 'rxjs';
 
 
@@ -7,7 +7,7 @@ import { interval, Subscription } from 'rxjs';
   templateUrl: './intervals.component.html',
   styleUrl: './intervals.component.css'
 })
-export class IntervalsComponent {
+export class IntervalsComponent implements OnDestroy{
 
   value: number = 0;
   counting: boolean = false
@@ -39,4 +39,10 @@ export class IntervalsComponent {
   playBeep(){
    this.beepAudio.play();
   }
+
+  ngOnDestroy(): void {
+    this.intervalSubscribtion?.unsubscribe();  // smettiamo di ascoltare 
+    this.value = 0;
+  }
+
 }
