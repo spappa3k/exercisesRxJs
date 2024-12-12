@@ -1,3 +1,5 @@
 <div class="container-fluid d-flex flex-column justify-content-center align-items-center vh-100" style="gap: 60px;">
+    <p class="bg-warning text-dark p-3 textTimer" *ngIf="!counting">The timer goes ON after 3 seconds</p>
     <h1 style="font-size: 6em; margin-top: 20px;">{{value}}</h1>  
+    <button type="button" class="btn btn-danger" (click)="timerReset()">Click to Reset</button>
 </div>

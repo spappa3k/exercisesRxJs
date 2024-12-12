@@ -49,3 +49,10 @@
   width: 200px;
   height: 60px;
 }
+
+/* TIMER */
+.textTimer{
+  position: absolute; 
+  z-index: 10;
+  bottom:500px;
+}
