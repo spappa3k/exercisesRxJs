@@ -20,7 +20,6 @@ counting:boolean=false;
     
     // il $ dopo il nome della variabile la imposta come Observable da poter sottoscrivere
     var timer$ = timer(3000, 1000);  // aspetta 3000ms e poi genera eventi ogni 1000ms
-
     this.timerSubscribtion=timer$.subscribe((x)=>{
       this.value=x;
       if(this.value!=0){
