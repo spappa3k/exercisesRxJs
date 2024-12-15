@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { IntervalsComponent } from './intervals/intervals.component';
 import { HomeComponent } from './home/home.component';
 import { TimerComponent } from './timer/timer.component';
+import { OfComponent } from './of/of.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntervalsComponent,
     HomeComponent,
-    TimerComponent
+    TimerComponent,
+    OfComponent
   ],
   imports: [
     BrowserModule,
