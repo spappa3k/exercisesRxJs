@@ -21,6 +21,7 @@ export class OfComponent implements OnInit{
         { this.value=y} // assegno il valore di y a value
     )
 
+    console.log(this.value);
 
   }
 
