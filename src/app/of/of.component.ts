@@ -16,7 +16,7 @@ export class OfComponent implements OnInit{
     obs$.pipe(
       filter(x=>x%2===0),//filtro i numeri pari in x
 //concatMap: Processa ogni valore in sequenza, uno alla volta, assicurando che il successivo inizi solo quando il precedente è completato
-//mapTo: trasforma il singolo valore
+//mapTo: trasforma il singolo valore 
       concatMap(x=>timer(1000).pipe(mapTo(x))) 
     )
     .subscribe(y=> // Qui usiamo "y" per rappresentare il valore filtrato, non uso x dinuovo per far capire
