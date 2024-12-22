@@ -34,4 +34,8 @@ export class BehSubjectComponent implements OnInit, OnDestroy {
     // Evita perdite di memoria annullando la subscription
     this.intervalSubscription?.unsubscribe();
   }
+
+  addTen(){
+    this.numero.next(10);
+  }
 }
