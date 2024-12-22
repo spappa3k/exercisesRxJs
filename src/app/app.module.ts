@@ -7,6 +7,7 @@ import { IntervalsComponent } from './intervals/intervals.component';
 import { HomeComponent } from './home/home.component';
 import { TimerComponent } from './timer/timer.component';
 import { OfComponent } from './of/of.component';
+import { BehSubjectComponent } from './beh-subject/beh-subject.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OfComponent } from './of/of.component';
     IntervalsComponent,
     HomeComponent,
     TimerComponent,
-    OfComponent
+    OfComponent,
+    BehSubjectComponent
   ],
   imports: [
     BrowserModule,
