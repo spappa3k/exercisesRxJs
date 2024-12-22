@@ -9,6 +9,7 @@ import { BehaviorSubject, interval, Subscription } from 'rxjs';
 
 export class BehSubjectComponent implements OnInit{
 numero = new BehaviorSubject<number>(0);
+value:number=0;
 
 private intervalSubscribtion?:Subscription
 
@@ -19,6 +20,7 @@ ngOnInit(): void {
 }
 
 goToInterval(){
+
   const interval$ = interval(1000);
 }
 }
