@@ -63,3 +63,16 @@
   max-width: 500px;
   margin: 0 auto;
 }
+
+th{
+  font-size: 1.9em;
+  border-bottom: 0.5px solid rgba(154, 154, 154, 0.548);
+}
+
+table{
+  font-size: 1.6em;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 2px black solid;
+  max-width: 400px;
+}

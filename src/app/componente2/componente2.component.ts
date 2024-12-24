@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './componente2.component.css'
 })
 export class Componente2Component {
+nomi?:string[]
 
 }
