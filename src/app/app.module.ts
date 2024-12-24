@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { TimerComponent } from './timer/timer.component';
 import { OfComponent } from './of/of.component';
 import { BehSubjectComponent } from './beh-subject/beh-subject.component';
+import { Componente1Component } from './componente1/componente1.component';
+import { Componente2Component } from './componente2/componente2.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { BehSubjectComponent } from './beh-subject/beh-subject.component';
     HomeComponent,
     TimerComponent,
     OfComponent,
-    BehSubjectComponent
+    BehSubjectComponent,
+    Componente1Component,
+    Componente2Component
   ],
   imports: [
     BrowserModule,
