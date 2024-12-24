@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-componente1',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './componente1.component.css'
 })
 export class Componente1Component {
-
+nomeUtente:string=''
 }
