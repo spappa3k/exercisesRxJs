@@ -56,3 +56,10 @@
   z-index: 10;
   bottom:500px;
 }
+
+
+/* COMUNICAZIONE DUE COMPONENTI */
+.inputComponente1{
+  max-width: 500px;
+  margin: 0 auto;
+}
