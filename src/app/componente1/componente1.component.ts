@@ -8,4 +8,8 @@ import { NgModel } from '@angular/forms';
 })
 export class Componente1Component {
 nomeUtente:string=''
+
+immetti(event:Event){
+this.nomeUtente= (event.target as HTMLInputElement).value; // casta per prendere l input dall evento
+}
 }
