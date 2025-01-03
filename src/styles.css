@@ -65,7 +65,7 @@
 }
 
 th{
-  font-size: 1.9em;
+  font-size: 1.1em;
   border-bottom: 0.5px solid rgba(154, 154, 154, 0.548);
 }
 
@@ -79,6 +79,7 @@ table{
 
 .conferma{
 width: 600px;
- margin: 0 auto;
-border: 2px black solid;
+border: 2px rgba(0, 0, 0, 0.116) solid;
+position: relative;
+top: 50px;
 }
