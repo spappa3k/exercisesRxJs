@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './prova2-componente1.component.css'
 })
 export class Prova2Componente1Component {
+input2:string='';
 
+
+sendInput(event:Event){
+
+}
 }
