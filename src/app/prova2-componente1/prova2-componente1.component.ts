@@ -10,6 +10,6 @@ input2:string='';
 
 
 sendInput(event:Event){
-
+this.input2=(event.target as HTMLInputElement).value;
 }
 }
