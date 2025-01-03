@@ -11,6 +11,8 @@ import { BehSubjectComponent } from './beh-subject/beh-subject.component';
 import { Componente1Component } from './componente1/componente1.component';
 import { Componente2Component } from './componente2/componente2.component';
 import { FormsModule } from '@angular/forms';
+import { Prova2Componente1Component } from './prova2-componente1/prova2-componente1.component';
+import { Prova2Componente2Component } from './prova2-componente2/prova2-componente2.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FormsModule } from '@angular/forms';
     OfComponent,
     BehSubjectComponent,
     Componente1Component,
-    Componente2Component
+    Componente2Component,
+    Prova2Componente1Component,
+    Prova2Componente2Component
   ],
   imports: [
     BrowserModule,
