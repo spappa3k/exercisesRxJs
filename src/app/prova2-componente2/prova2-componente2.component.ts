@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './prova2-componente2.component.css'
 })
 export class Prova2Componente2Component {
-
+inputValueProva2:string=''
 }
